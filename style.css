@@ -1,0 +1,171 @@
+.container{
+	background-color: white;
+	width: 960px;
+	position: relative;
+	margin:80px auto;
+}
+
+.header{
+	padding: 20px;
+}
+
+.container .header h1{
+	font-weight: bold;
+	font-size: 40px;
+	font-family: arial;
+}
+
+.heroImage{
+	height: 320px;
+	background-size: cover;
+	background-position: 0 0;
+	background-image: url(img/image.jpg);
+	border-bottom:5px solid lightskyblue;
+	border-top:5px solid salmon;
+	background-repeat: no-repeat;
+}
+
+.content{
+	padding: 20px;	
+}
+
+.content h2{
+	font-size: 28px;
+	font-family: arial;
+	font-weight: bold;
+}
+
+.content .penulis{
+	font-size: 15px;
+	margin-bottom: 20px;
+}
+
+.content .penulis a{
+	text-decoration: none;
+	color: salmon;
+}
+
+.content .penulis a:hover{
+	background:lightskyblue;
+	color: white;
+}
+
+.content .artikel1{
+	margin-bottom: 20px;
+	font-size: 15px;
+}
+
+.content .artikel2{
+	font-weight: bold;
+}
+
+.footer{
+	background-color: #333;
+	padding:20px;
+}
+
+.footer .copy{
+	color: #eaeaea;
+	text-align: center;
+}
+
+.main{
+	width: 600px;
+	float: left;
+}
+
+.sidebar{
+	width: 300px;
+	float: right;
+}
+
+.sidebar h3{
+	font:bold 15px arial;
+	margin-bottom: 10px;
+	color: #666;
+}
+
+.sidebar img{
+	float: left;
+	margin-right: 10px;
+	width: 70px;
+	height: 70px;
+}
+
+.sidebar .tentang{
+	line-height: 20px;
+
+}
+
+.sidebar .gambar{
+	display: inline-block;
+	width: 30px;
+	height: 30px;
+	margin-top: 10px;
+	margin-left: 50px;
+}
+
+.sidebar ul li a{
+	text-decoration: none;
+	color: salmon;
+	line-height: 20px;
+}
+
+.sidebar ul li a:hover{
+	background-color: lightskyblue;
+	color: white;
+}
+
+.populer{
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.twitter{
+	width: 200px;
+	height: 200px;
+	display: inline-block;
+	background-image: url(img/pita.png);
+	text-indent: -9999px;
+	position: absolute;
+	top: -23px;
+	right: -28px;
+}
+
+.top-bar{
+	position: fixed;
+	left: 0;
+	right: 0;
+	top: 0;
+	background: lightskyblue;
+	height: 50px; 
+	border-bottom: 3px solid salmon;
+	z-index: 9999;
+}
+
+.top-bar ul li{
+	margin-top: 10px;
+	display: inline-block;	
+	font: 20px arial;
+}
+
+.top-bar ul .home{
+	margin-left: 200px;
+}
+
+.top-bar ul li a{
+	text-decoration: none;
+	color: salmon;
+}
+
+.top-bar ul li a:hover{
+	color: white;
+}
+
+body{
+	font: 16px/28px arial,sans-serif;
+	background: #eaeaea;
+	color:#333;
+	background-image: url(img/sativa.png);
+	height: 2000px;
+}
